@@ -1,0 +1,19 @@
+# Images and large caches (not part of the source snapshot)
+data/images/
+data/raw/
+cache/
+cache_share/
+cache._hidden_from_scores/
+checkpoints/
+outputs/
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.npz
+*.zip
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db

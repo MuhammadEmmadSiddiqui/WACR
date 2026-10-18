@@ -1,0 +1,3 @@
+pair,role,note
+tinyface_scface,pool,Classifier-dataset image filenames are not stored in the embedding cache; see data/README.md.
+xqlfw_scface,pool,Classifier-dataset image filenames are not stored in the embedding cache; see data/README.md.

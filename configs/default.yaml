@@ -1,0 +1,31 @@
+# All paths are relative to the repository root.
+cache_dir: cache
+data_dir: data
+outputs_dir: outputs
+results_dir: results
+
+pairs:
+  tinyface_scface:
+    cal: TinyFace
+    test: SCFace
+  xqlfw_scface:
+    cal: XQLFW
+    test: SCFace
+
+alpha: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50]
+alpha_main: 0.10
+k: 65
+M: 20
+B: 30.0
+beta: 0.5
+delta: 0.1
+min_set_size: 0
+n_boot: 1000
+n_gallery: 585
+
+seed: 0
+gmatch_seed: 0
+xgb_seed: 42
+fold_seed: 0
+n_folds: 5
+apub_n_boot: 3000
